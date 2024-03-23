@@ -7,33 +7,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visita Argentina</title>
     <link rel="icon" href="imagenes/icon.ico">
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
 
     <header>
+        <h1>Visita Argentina </h1>
+        <nav>
         <a href="quienessomos">Ir a quienes somos</a>
         <a href="index.html">Principal</a>
-        <nav>
-        <h1>Visita Argentina </h1>
-        <hr/>
         </nav>
         </header>
-    <h2>Contacto</h2>
+<section id="contacto">
+        <h2>Contacto</h2>
 
     <h3> Envienos un mensaje</h3>
 
     <form action="Link" method="post" target="_blank">
-         <label for="Nombre"> Nombre</label> 
-        <input type="text" id="Nombre" name="Nombre"><br><br>
-         <label for="Apellido"> Apellido</label>
-         <input type="text" id="Apellido" name="Apellido"><br><br>
-         <label for="Email"> Email</label>
-         <input type="text" id="Email" name="Email"><br><br>
+        <div>
+            <label for="Nombre"> Nombre</label> 
+            <input type="text" id="Nombre" name="Nombre" placeholder="Nombre"><br><br>
+         </div>
+         <div>
+             <label for="Apellido"> Apellido</label>
+            <input type="text" id="Apellido" name="Apellido" placeholder="Apellido"><br><br>
+        </div>
+        <div>
+             <label for="Email"> Email</label>
+             <input type="email" id="Email" name="Email" placeholder="Email" required><br><br>
+        </div>
         <b></br>
-        <textarea name="Comentario" rows="10" cols="40">Contanos tu duda</textarea><b></br>
-
-        <input type="submit" value="Enviar">
+        <div>
+            <textarea name="Comentario" rows="10" cols="40" placeholder="Contanos tu duda"></textarea><b></br>
+        </div>
+            <input type="submit" value="Enviar">
     </form>
+</section>
         <h3>Donde encontrarnos</h3>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.3471842544395!2d-57.95883042424588!3d-34.922828772841555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e62dd769b9d7%3A0x8e5a62b28764b5ef!2sCatedral%20de%20La%20Plata!5e0!3m2!1ses!2sar!4v1711128863918!5m2!1ses!2sar" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <footer id="pie_de_pagina">
+            <p>Copyright &copy; 2024 | Grupo cinco de codo a codo <a href="#top">Ir arriba</a></p>
+        </footer>
 </body>
