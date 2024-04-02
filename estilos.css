@@ -14,7 +14,7 @@ header{
     background-image: url("imagenes/viaja.jpg");
     height: 400px;
     text-align: center;
-    border-bottom: solid 1px rgba(62, 62, 62, 0.85)
+    border-bottom: solid 1px rgba(62, 62, 62, 0)
   
 }
 
@@ -36,8 +36,8 @@ h2 {
 
 #container {
     height:60px;
-    background-color:rgba(32, 47, 55, 0.85);
-    border-bottom: solid 1px rgba(62, 62, 62, 0.85)
+    background-color:rgba(32, 47, 55, 10);
+    border-bottom: solid 1px rgba(62, 62, 62, 1)
     
 
 }
@@ -108,9 +108,31 @@ h2 {
  }
 
 footer {
-    background: black;
+    background-color:rgba(32, 47, 55, 10);
     color:white;
     text-align: center;
     height: 50px;
     line-height: 50px;
+}
+
+#botones {
+    background-color: #707070;
+    border: 1px solid blueviolet;
+    border-radius: 3px;
+    font-size: 16px;
+    color:black;
+    
+}
+#botones:hover {
+    background-color: #7d7d7d;
+
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
+}
+
+a:active{
+    color:red;
 }
